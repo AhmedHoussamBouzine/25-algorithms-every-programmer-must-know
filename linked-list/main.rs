@@ -62,7 +62,7 @@ fn main() {
 
     println!("Linked List: ");
     linked_list.display();
-
+    
     let search_value = 7;
     match linked_list.search(search_value) {
         Some(index) => println!("Found {} at index {}", search_value, index),
